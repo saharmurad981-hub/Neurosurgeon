@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Link, NavLink } from "react-router";
 import { motion, AnimatePresence } from "motion/react";
 import {
-  HeartPulse,
+  Brain,
   ArrowUpRight,
   Menu,
   X,
@@ -92,7 +92,8 @@ export default function Navbar() {
                 ease: "easeInOut",
               }}
             >
-              <HeartPulse size={27} strokeWidth={2.2} />
+              {/* <HeartPulse size={27} strokeWidth={2.2} /> */}
+                <Brain size={32}  strokeWidth={2.2}/>
             </motion.span>
           </motion.span>
 

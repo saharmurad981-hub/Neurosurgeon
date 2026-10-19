@@ -21,7 +21,7 @@ const services = [
     number: "01",
     icon: Brain,
     title: "Neurosurgery Consultation",
-    subtitle: "مشورهٔ مغز و اعصاب",
+   
     description:
       "A consultation to discuss neurological concerns, review relevant medical information, and understand appropriate next steps.",
     details: [
@@ -34,7 +34,7 @@ const services = [
     number: "02",
     icon: Activity,
     title: "Spine Consultation",
-    subtitle: "مشورهٔ ستون فقرات",
+  
     description:
       "Assessment of spine-related concerns, with a discussion of available care options based on the patient's clinical situation.",
     details: [
@@ -47,7 +47,7 @@ const services = [
     number: "03",
     icon: ScanSearch,
     title: "Medical Report Review",
-    subtitle: "بررسی اسناد و گزارش‌های طبی",
+  
     description:
       "Review of relevant medical reports and imaging that a patient brings to the consultation, when appropriate.",
     details: [
@@ -60,7 +60,7 @@ const services = [
     number: "04",
     icon: ClipboardCheck,
     title: "Follow-up Consultation",
-    subtitle: "مشورهٔ پیگیری",
+    
     description:
       "A follow-up visit to discuss progress, review previously agreed plans, and determine whether further assessment is appropriate.",
     details: [

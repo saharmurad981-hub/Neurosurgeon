@@ -64,9 +64,9 @@ export default function WhatNow() {
 
             <a
               href="tel:+93787654751"
-              className="group flex items-center justify-between gap-6 rounded-full border border-white/20 bg-white/5 py-2 pl-6 pr-2 font-semibold transition hover:bg-white/10"
+              className="group flex items-center justify-between gap-6 rounded-full border border-blue-600 bg-white/5 py-2 pl-6 pr-2 font-semibold transition hover:bg-white/10"
             >
-              <span className="flex items-center gap-2">
+              <span className="flex items-center gap-2 " >
                 <Phone size={19} />
                 Call the Clinic
               </span>

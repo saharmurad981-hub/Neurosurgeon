@@ -76,9 +76,10 @@ export default function Hero() {
             variants={reveal}
             className="max-w-3xl text-2xl font-bold leading-[1.12] tracking-tight text-slate-900 sm:text-5xl lg:text-[54px] xl:text-[62px]"
           >
-            Advanced Brain & Spine Care for a{" "}
+            Dr. Khalid Khan Zadran {" "}
+            
             <span className="text-blue-600">
-              Healthier Tomorrow
+            Advanced Brain & Spine Care 
             </span>
           </motion.h1>
 
@@ -205,9 +206,9 @@ export default function Hero() {
           />
 
           {/* Doctor photo */}
-          <div className="relative h-[490px] overflow-hidden rounded-[42%_42%_28px_28px] sm:h-[530px] lg:h-[620px]">
+          <div className="relative h-[490px] overflow-hidden rounded-[32%_32%_20px_20px] sm:h-[530px] lg:h-[690px]">
             <motion.img
-              src= {All.neoron}
+              src= {All.zadran}
               alt="Dr. Khalid Khan Zadran, neurosurgeon"
               initial={{ scale: 1.12 }}
               animate={{ scale: 1 }}
@@ -228,7 +229,7 @@ export default function Hero() {
             className="absolute bottom-5 left-3 right-3 flex items-center gap-3 rounded-2xl border border-white/80 bg-white/95 p-4 shadow-xl shadow-blue-950/10 backdrop-blur-xl sm:bottom-9 sm:left-auto sm:right-3 sm:w-[345px] sm:p-5"
           >
             <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
-              <Brain size={27} />
+              <Brain size={32} />
             </div>
 
             <div className="min-w-0 flex-1">
@@ -244,33 +245,12 @@ export default function Hero() {
               whileHover={{ x: 4 }}
               className="text-blue-600"
             >
-              <ArrowRight size={22} />
+              
             </motion.div>
           </motion.div>
 
-          {/* Floating care badge */}
-          <motion.div
-            animate={{ y: [0, -9, 0] }}
-            transition={{
-              duration: 3.5,
-              repeat: Infinity,
-              ease: "easeInOut",
-            }}
-            className="absolute left-1 top-7 flex items-center gap-3 rounded-2xl border border-white/80 bg-white/95 px-4 py-3 shadow-lg sm:-left-7 sm:top-16"
-          >
-            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-blue-50 text-blue-600">
-              <ShieldCheck size={23} />
-            </div>
+        
 
-            <div>
-              <p className="text-sm font-bold text-slate-900">
-                Patient First
-              </p>
-              <p className="text-xs text-slate-500">
-                Care with compassion
-              </p>
-            </div>
-          </motion.div>
         </motion.div>
       </div>
     </section>

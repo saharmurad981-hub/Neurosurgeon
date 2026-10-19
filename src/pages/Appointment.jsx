@@ -23,19 +23,19 @@ const services = [
   {
     value: "neurosurgery",
     label: "Neurosurgery Consultation",
-    description: "مشورهٔ مغز و اعصاب",
+  
     icon: Brain,
   },
   {
     value: "spine",
     label: "Spine Consultation",
-    description: "مشورهٔ ستون فقرات",
+  
     icon: Activity,
   },
   {
     value: "followup",
     label: "Follow-up Visit",
-    description: "مراجعهٔ پیگیری",
+    
     icon: ClipboardCheck,
   },
 ];
@@ -667,8 +667,7 @@ export default function Appointment() {
               Need help with your visit?
             </h2>
             <p className="mt-4 leading-7 text-slate-600">
-              Use the clinic's verified contact details to ask about
-              appointment availability or directions.
+             tel:+93787654751
             </p>
           </div>
 

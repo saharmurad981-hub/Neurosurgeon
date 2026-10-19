@@ -6,6 +6,7 @@ import {
   ClipboardCheck,
   Clock3,
   ShieldCheck,
+  Brain,
 } from "lucide-react";
 import { Link } from "react-router";
 
@@ -27,7 +28,7 @@ export default function AboutPreview() {
         >
           {/* Small label */}
           <div className="mb-5 inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50 px-4 py-2">
-            <HeartPulse size={17} className="text-blue-600" />
+             <Brain size={17}  className="text-blue-600" />
             <span className="text-sm font-semibold text-blue-700">
               About the Doctor
             </span>
@@ -126,7 +127,7 @@ export default function AboutPreview() {
             <img
               src={All.zadran}
               alt="Dr. Khalid Khan Zadran"
-              className="h-[420px] w-full object-cover object-center sm:h-[540px]"
+              className="h-[420px] w-full object-cover object-top sm:h-[540px]"
               loading="lazy"
             />
 
@@ -147,35 +148,13 @@ export default function AboutPreview() {
                 </div>
 
                 <div className="hidden h-12 w-12 shrink-0 items-center justify-center rounded-full border border-white/30 bg-white/15 text-white backdrop-blur-md sm:flex">
-                  <HeartPulse size={24} />
+                  <Brain size={24} />
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Floating label */}
-          <motion.div
-            animate={{ y: [0, -7, 0] }}
-            transition={{
-              duration: 3,
-              repeat: Infinity,
-              ease: "easeInOut",
-            }}
-            className="absolute -left-3 top-8 flex items-center gap-3 rounded-2xl border border-white bg-white/95 p-3 shadow-lg sm:-left-7 sm:p-4"
-          >
-            <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-blue-50 text-blue-600">
-              <HeartPulse size={24} />
-            </div>
-
-            <div>
-              <p className="text-sm font-bold text-slate-900">
-                Brain & Spine
-              </p>
-              <p className="mt-1 text-xs text-slate-500">
-                Specialized Care
-              </p>
-            </div>
-          </motion.div>
+          
         </motion.div>
       </div>
     </section>
